@@ -17,6 +17,13 @@ body{
     align-items: center;
 }
 
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
 button{
     cursor: pointer;
 }
@@ -198,4 +205,13 @@ hr{
     color: ghostwhite;
     text-align: center;
     width: 90%;
+}
+
+#attribution{
+    height: 20px;
+    width: 100%;
+    background-color: #007acc;
+    text-align: center;
+    padding: 3px;
+    color: ghostwhite;
 }
